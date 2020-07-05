@@ -3,11 +3,11 @@ package ua.medvid;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class MyList2 <T extends Comparable<T>> {
+public class MyListModify<T extends Comparable<T>> {
 
     private ArrayList<T> myList2;
 
-    public MyList2() {
+    public MyListModify() {
         this.myList2 = new ArrayList<>();
     }
 

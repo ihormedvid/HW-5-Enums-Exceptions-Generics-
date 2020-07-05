@@ -7,16 +7,16 @@ public class Main {
         myList.add(1333);
         myList.add(92);
 
-        MyList2<String> myList2 = new MyList2<>();
-        myList2.add("300");
-        myList2.add("3443");
-        myList2.add("asd");
+        MyListModify<String> MyListModify = new MyListModify<>();
+        MyListModify.add("300");
+        MyListModify.add("3443");
+        MyListModify.add("asd");
 
 
         System.out.println("List - 1 Min = " + myList.getMin());
         System.out.println("List - 1 Max = " + myList.getMax());
 
-        System.out.println("List - 2 Min = " + myList2.getMin());
-        System.out.println("List - 2 Max = " + myList2.getMax());
+        System.out.println("List - 2 Min = " + MyListModify.getMin());
+        System.out.println("List - 2 Max = " + MyListModify.getMax());
     }
 }
